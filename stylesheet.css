@@ -1,6 +1,7 @@
 /*   
   Project by Zua 
-  https://github.com/thatziv/webhook 
+  https://github.com/thatziv/webhook
+  I think it's good that i'm attributing the source I'm basically plagiarizing from.
 */
 @import url('https://fonts.googleapis.com/css?family=Comic+Sans+MS');
 * {
@@ -9,7 +10,7 @@
 }
 
 body {
-    background: #555555;
+    background: #23272A;
 }
 
 #container {
@@ -17,16 +18,16 @@ body {
     margin: auto;
     margin-right: 25px;
     margin-left: 25px;
-    box-shadow: 7px 7px #0000006c;
-    background: #555555; 
+    background: #23272A;
     padding: 25px;
 }
 
 #header {
     text-align: center;
-    margin-top: 47px;
+    margin-top: 50px;
     margin: auto;
-    font-size: 39px
+    font-size: 25px;
+    color: #7289DA;
 }
 
 .center-align {
@@ -34,32 +35,33 @@ body {
 }
 
 p {
-    font-size: 27px;
+    font-size: 30px;
+    color: #7289DA;    
 }
 
 a, a:visited {
-    color: rgb(129, 129, 129)
+    color: rgb(253, 7, 7)
 }
 
 #link, #username, #content, #avatar {
-    font-size: 25px;
-    background-color: #4e4e4e;
+    font-size: 20px;
+    background-color: #2C2F33;
     width: 75%;
     padding: 20px;
-    border: 2px solid #000000c9;
+    border: 2px solid #00000003;
 }
 
 #btn {
-    width: 35%;
+    width: 40%;
     font-size: 25px;
     margin-top: 25px;
-    padding: 17px;
-    background-color: #34a2c2;
+    padding: 25px;
+    background-color: #99AAB5;
     border: 2px solid #000000c9;
 }
 
 #btn:hover { 
-    background-color: #3474c2;
+    background-color: #7289DA;
 }
 
 #log {
